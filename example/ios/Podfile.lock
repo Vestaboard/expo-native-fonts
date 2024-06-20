@@ -17,7 +17,7 @@ PODS:
     - React-Core
     - React-RCTAppDelegate
     - ReactCommon/turbomodule/core
-  - ExpoWidgets (0.5.13):
+  - ExpoWidgets (0.5.55):
     - ExpoModulesCore
   - EXSplashScreen (0.18.2):
     - ExpoModulesCore
@@ -523,7 +523,7 @@ SPEC CHECKSUMS:
   Expo: 0d9f112757acc6bf32103eabccf91267780bd580
   ExpoKeepAwake: 69f5f627670d62318410392d03e0b5db0f85759a
   ExpoModulesCore: 653958063a301098b541ae4dfed1ac0b98db607b
-  ExpoWidgets: 7a292fad46be12959f19e2c0399fd976341ab1f6
+  ExpoWidgets: c8519e57903f1375cd09fe7fa4241f3244940afa
   EXSplashScreen: 0e0a9ba0cf7553094e93213099bd7b42e6e237e9
   FBLazyVector: 12ea01e587c9594e7b144e1bfc86ac4d9ac28fde
   FBReactNativeSpec: b6ae48e67aaba46442f84d6f9ba598ccfbe2ee66
@@ -560,6 +560,6 @@ SPEC CHECKSUMS:
   ReactCommon: 7f3dd5e98a9ec627c6b03d26c062bf37ea9fc888
   Yoga: e71803b4c1fff832ccf9b92541e00f9b873119b9
 
-PODFILE CHECKSUM: 8a45ca094b6c6cda9e1c73b09f0ee1a85fe709c0
+PODFILE CHECKSUM: 035e6bb7a8419e82a33354d1f8d3420933ef1878
 
 COCOAPODS: 1.15.2

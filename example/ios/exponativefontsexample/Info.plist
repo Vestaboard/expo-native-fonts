@@ -46,13 +46,10 @@
         </dict>
       </dict>
     </dict>
-    <key>UIAppFonts</key>
-    <array>
-      <string>Montserrat-Black.ttf</string>
-      <string>Montserrat-BlackItalic.ttf</string>
-      <string>Montserrat-Bold.ttf</string>
-      <string>Montserrat-BoldItalic.ttf</string>
-    </array>
+    <key>NSSupportsLiveActivities</key>
+    <false/>
+    <key>NSSupportsLiveActivitiesFrequentUpdates</key>
+    <false/>
     <key>UILaunchStoryboardName</key>
     <string>SplashScreen</string>
     <key>UIRequiredDeviceCapabilities</key>

@@ -10,37 +10,104 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1F4269B4D62A4310B525281A /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68A7C6D7E79C43419A2E152A /* Montserrat-BoldItalic.ttf */; };
+		2566D21A177940AFA2E5B769 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5571AC917494A91AE6C42A4 /* SwiftUI.framework */; };
+		36135C80BC94403A95743036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE0F3F310354F0F8FFDA903 /* Assets.xcassets */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		56939BA772D745D38B961EEF /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8042D4916D44CFD899AFC61 /* noop-file.swift */; };
-		58A712737BDC444DA1C711EA /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76CCBEDE8D234086A6516437 /* Montserrat-Bold.ttf */; };
+		403743A7F2CC48019C6814AE /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BA68E853EB42B8A54B7B67 /* WidgetKit.framework */; };
+		412BB1E8F8804A30B5907C20 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574C5F0C08A4C9C8976AD8E /* MyData.swift */; };
+		4A6964186F6A44E287792E6E /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58079FD95DE4E4FA41A58AC /* noop-file.swift */; };
+		4D9CC404C84148C199C14BAE /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27F7564C429C493C95A0D0A0 /* Montserrat-Bold.ttf */; };
+		55552959CAD44056B358CC24 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9AF398ED4AE437A8F487478 /* Montserrat-Black.ttf */; };
+		5B8095CA1ECB45C497C9ECFD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1467ED139E4432A0FCADB7 /* SwiftUI.framework */; };
+		76BF54EA273B435BBDD79C36 /* Font+families.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5F86AD42844570A1A24829 /* Font+families.swift */; };
+		872922FB66374B55952057BA /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A18219EA7C4128807B44A9 /* FontManager.swift */; };
 		96905EF65AED1B983A6B3ABC /* libPods-exponativefontsexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-exponativefontsexample.a */; };
-		99B208AD3D8346AF81EF692A /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6ECA7A1850FB4CF0B526D25B /* Montserrat-BlackItalic.ttf */; };
+		A6D637858D7B41C898DAE2F6 /* WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266092D71E92496389DC8EEF /* WidgetBundle.swift */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
-		B650BE1D1710407096DED9FB /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCB039BCD854B46B761164C /* Montserrat-BoldItalic.ttf */; };
+		BB231ADF65FF45328D30E270 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64481787D5024A2399C585A9 /* Attributes.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		DB97AE6319A44B99871A759F /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFDCBB5AD6B24CBC882880AA /* Montserrat-Black.ttf */; };
+		BD1E3FF6031E44A481B317F2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1CBF04E1724EFC8AD9846C /* WidgetKit.framework */; };
+		BFDEC7281B36470389389784 /* libPods-exponativefontsexampleWidgetExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C4F67347B121A0F4AAC6D5 /* libPods-exponativefontsexampleWidgetExtension.a */; };
+		CEE1F326BB5E4CD2B4377469 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 114B1E57052841CE8A67D2CF /* Montserrat-BlackItalic.ttf */; };
+		D6443E6FADEB4A879D676744 /* MyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9894D9F2C8224AF0BDE5D161 /* MyWidget.swift */; };
+		E818652A3E07BF0FA92ABC18 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21C2C34A539A6D5E3934F51 /* ExpoModulesProvider.swift */; };
+		F7CBED10360F4640BEF7A1E7 /* exponativefontsexampleWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 099AE2C10CCC4C9EA940922D /* exponativefontsexampleWidgetExtension.appex */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		292FF2743895454583BDA1B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B02AA2985F5A448A9BCBADC7;
+			remoteInfo = exponativefontsexampleWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		14C2978CDDBB4DF5994ABB5C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F7CBED10360F4640BEF7A1E7 /* exponativefontsexampleWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D385B32D7D9D4F46B48AA7F3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		099AE2C10CCC4C9EA940922D /* exponativefontsexampleWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = undefined; name = exponativefontsexampleWidgetExtension.appex; path = exponativefontsexampleWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C4F67347B121A0F4AAC6D5 /* libPods-exponativefontsexampleWidgetExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exponativefontsexampleWidgetExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1CBF04E1724EFC8AD9846C /* WidgetKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		114B1E57052841CE8A67D2CF /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "Fonts/Montserrat/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* exponativefontsexample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exponativefontsexample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = exponativefontsexample/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = exponativefontsexample/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = exponativefontsexample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = exponativefontsexample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = exponativefontsexample/main.m; sourceTree = "<group>"; };
+		266092D71E92496389DC8EEF /* WidgetBundle.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = WidgetBundle.swift; path = WidgetBundle.swift; sourceTree = "<group>"; };
+		27F7564C429C493C95A0D0A0 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "Fonts/Montserrat/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		2CE0F3F310354F0F8FFDA903 /* Assets.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Assets.xcassets; sourceTree = "<group>"; };
+		32FD150A1D24C1212D15A490 /* Pods-exponativefontsexampleWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exponativefontsexampleWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-exponativefontsexampleWidgetExtension/Pods-exponativefontsexampleWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-exponativefontsexample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exponativefontsexample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64481787D5024A2399C585A9 /* Attributes.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Attributes.swift; path = Attributes.swift; sourceTree = "<group>"; };
+		68A7C6D7E79C43419A2E152A /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "Fonts/Montserrat/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
 		6C2E3173556A471DD304B334 /* Pods-exponativefontsexample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exponativefontsexample.debug.xcconfig"; path = "Target Support Files/Pods-exponativefontsexample/Pods-exponativefontsexample.debug.xcconfig"; sourceTree = "<group>"; };
-		6ECA7A1850FB4CF0B526D25B /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "Fonts/Montserrat/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
-		76CCBEDE8D234086A6516437 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "Fonts/Montserrat/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		6D3DF47424DE4E3786982A99 /* Date+formats.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "Date+formats.swift"; path = "Date+formats.swift"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-exponativefontsexample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exponativefontsexample.release.xcconfig"; path = "Target Support Files/Pods-exponativefontsexample/Pods-exponativefontsexample.release.xcconfig"; sourceTree = "<group>"; };
+		7ED7C83E0A804EF1A3A9B46E /* Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = Info.plist; path = Info.plist; sourceTree = "<group>"; };
+		9776A72C283297A413EFD71B /* Pods-exponativefontsexampleWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exponativefontsexampleWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-exponativefontsexampleWidgetExtension/Pods-exponativefontsexampleWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
+		9894D9F2C8224AF0BDE5D161 /* MyWidget.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = MyWidget.swift; path = MyWidget.swift; sourceTree = "<group>"; };
+		A58079FD95DE4E4FA41A58AC /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "exponativefontsexample/noop-file.swift"; sourceTree = "<group>"; };
+		A6A18219EA7C4128807B44A9 /* FontManager.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = FontManager.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = exponativefontsexample/SplashScreen.storyboard; sourceTree = "<group>"; };
-		AFDCBB5AD6B24CBC882880AA /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "Fonts/Montserrat/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		AF1467ED139E4432A0FCADB7 /* SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		E8042D4916D44CFD899AFC61 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "exponativefontsexample/noop-file.swift"; sourceTree = "<group>"; };
+		C126819E366D4D5AA68BEE08 /* exponativefontsexampleWidgetExtension.entitlements */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = exponativefontsexampleWidgetExtension.entitlements; path = exponativefontsexampleWidgetExtension.entitlements; sourceTree = "<group>"; };
+		C21C2C34A539A6D5E3934F51 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-exponativefontsexampleWidgetExtension/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		C9AF398ED4AE437A8F487478 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "Fonts/Montserrat/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		D5571AC917494A91AE6C42A4 /* SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DD5F86AD42844570A1A24829 /* Font+families.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "Font+families.swift"; path = "Font+families.swift"; sourceTree = "<group>"; };
+		E574C5F0C08A4C9C8976AD8E /* MyData.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = MyData.swift; path = MyData.swift; sourceTree = "<group>"; };
+		E8BA68E853EB42B8A54B7B67 /* WidgetKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-exponativefontsexample/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		FCCB039BCD854B46B761164C /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "Fonts/Montserrat/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +116,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				96905EF65AED1B983A6B3ABC /* libPods-exponativefontsexample.a in Frameworks */,
+				BD1E3FF6031E44A481B317F2 /* WidgetKit.framework in Frameworks */,
+				2566D21A177940AFA2E5B769 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E76256C00BF4B5E9CCFFFD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403743A7F2CC48019C6814AE /* WidgetKit.framework in Frameworks */,
+				5B8095CA1ECB45C497C9ECFD /* SwiftUI.framework in Frameworks */,
+				BFDEC7281B36470389389784 /* libPods-exponativefontsexampleWidgetExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,9 +145,20 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				E8042D4916D44CFD899AFC61 /* noop-file.swift */,
+				A58079FD95DE4E4FA41A58AC /* noop-file.swift */,
 			);
 			name = exponativefontsexample;
+			sourceTree = "<group>";
+		};
+		2146E1D3721D4E5EA9095FF5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6D3DF47424DE4E3786982A99 /* Date+formats.swift */,
+				C126819E366D4D5AA68BEE08 /* exponativefontsexampleWidgetExtension.entitlements */,
+				7ED7C83E0A804EF1A3A9B46E /* Info.plist */,
+			);
+			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -76,6 +166,9 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-exponativefontsexample.a */,
+				0B1CBF04E1724EFC8AD9846C /* WidgetKit.framework */,
+				D5571AC917494A91AE6C42A4 /* SwiftUI.framework */,
+				09C4F67347B121A0F4AAC6D5 /* libPods-exponativefontsexampleWidgetExtension.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,10 +189,11 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
-				AFDCBB5AD6B24CBC882880AA /* Montserrat-Black.ttf */,
-				6ECA7A1850FB4CF0B526D25B /* Montserrat-BlackItalic.ttf */,
-				76CCBEDE8D234086A6516437 /* Montserrat-Bold.ttf */,
-				FCCB039BCD854B46B761164C /* Montserrat-BoldItalic.ttf */,
+				DE9490986FC04643BE041E19 /* exponativefontsexampleWidgetExtension */,
+				C9AF398ED4AE437A8F487478 /* Montserrat-Black.ttf */,
+				114B1E57052841CE8A67D2CF /* Montserrat-BlackItalic.ttf */,
+				27F7564C429C493C95A0D0A0 /* Montserrat-Bold.ttf */,
+				68A7C6D7E79C43419A2E152A /* Montserrat-BoldItalic.ttf */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -110,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* exponativefontsexample.app */,
+				099AE2C10CCC4C9EA940922D /* exponativefontsexampleWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +231,8 @@
 			children = (
 				6C2E3173556A471DD304B334 /* Pods-exponativefontsexample.debug.xcconfig */,
 				7A4D352CD337FB3A3BF06240 /* Pods-exponativefontsexample.release.xcconfig */,
+				32FD150A1D24C1212D15A490 /* Pods-exponativefontsexampleWidgetExtension.debug.xcconfig */,
+				9776A72C283297A413EFD71B /* Pods-exponativefontsexampleWidgetExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -144,8 +241,35 @@
 			isa = PBXGroup;
 			children = (
 				92DBD88DE9BF7D494EA9DA96 /* exponativefontsexample */,
+				EBBD708D12CB34D06D573AD3 /* exponativefontsexampleWidgetExtension */,
 			);
 			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		DE9490986FC04643BE041E19 /* exponativefontsexampleWidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				64481787D5024A2399C585A9 /* Attributes.swift */,
+				DD5F86AD42844570A1A24829 /* Font+families.swift */,
+				A6A18219EA7C4128807B44A9 /* FontManager.swift */,
+				E574C5F0C08A4C9C8976AD8E /* MyData.swift */,
+				9894D9F2C8224AF0BDE5D161 /* MyWidget.swift */,
+				266092D71E92496389DC8EEF /* WidgetBundle.swift */,
+				2CE0F3F310354F0F8FFDA903 /* Assets.xcassets */,
+				C126819E366D4D5AA68BEE08 /* exponativefontsexampleWidgetExtension.entitlements */,
+				7ED7C83E0A804EF1A3A9B46E /* Info.plist */,
+				2146E1D3721D4E5EA9095FF5 /* Extensions */,
+			);
+			name = exponativefontsexampleWidgetExtension;
+			path = exponativefontsexampleWidgetExtension;
+			sourceTree = "<group>";
+		};
+		EBBD708D12CB34D06D573AD3 /* exponativefontsexampleWidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C21C2C34A539A6D5E3934F51 /* ExpoModulesProvider.swift */,
+			);
+			name = exponativefontsexampleWidgetExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,16 +286,38 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				E1F668AECF4DF6572109AF8D /* [CP] Embed Pods Frameworks */,
+				14C2978CDDBB4DF5994ABB5C /* Embed Foundation Extensions */,
+				D385B32D7D9D4F46B48AA7F3 /* Embed Foundation Extensions */,
+				3BACED03CF72F695CCF43200 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				58E285A42B164CB2B93355D2 /* PBXTargetDependency */,
 			);
 			name = exponativefontsexample;
 			productName = exponativefontsexample;
 			productReference = 13B07F961A680F5B00A75B9A /* exponativefontsexample.app */;
 			productType = "com.apple.product-type.application";
+		};
+		B02AA2985F5A448A9BCBADC7 /* exponativefontsexampleWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773E7E21E4994ABC99779F1A /* Build configuration list for PBXNativeTarget "exponativefontsexampleWidgetExtension" */;
+			buildPhases = (
+				790EA008D7D9066A44D5C381 /* [CP] Check Pods Manifest.lock */,
+				6E76256C00BF4B5E9CCFFFD0 /* Frameworks */,
+				4F32D25B49534CCB879AFA4B /* Sources */,
+				317AD9564640465F9B8D1C7F /* Resources */,
+				0A18531EE6793B81F634341D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = exponativefontsexampleWidgetExtension;
+			productName = exponativefontsexampleWidgetExtension;
+			productReference = 099AE2C10CCC4C9EA940922D /* exponativefontsexampleWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -182,12 +328,16 @@
 				LastUpgradeCheck = 1130;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = undefined;
+						LastSwiftMigration = 1250;
+					};
+					B02AA2985F5A448A9BCBADC7 = {
 						LastSwiftMigration = 1250;
 					};
 				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "exponativefontsexample" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,6 +350,7 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* exponativefontsexample */,
+				B02AA2985F5A448A9BCBADC7 /* exponativefontsexampleWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -212,10 +363,18 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				DB97AE6319A44B99871A759F /* Montserrat-Black.ttf in Resources */,
-				99B208AD3D8346AF81EF692A /* Montserrat-BlackItalic.ttf in Resources */,
-				58A712737BDC444DA1C711EA /* Montserrat-Bold.ttf in Resources */,
-				B650BE1D1710407096DED9FB /* Montserrat-BoldItalic.ttf in Resources */,
+				55552959CAD44056B358CC24 /* Montserrat-Black.ttf in Resources */,
+				CEE1F326BB5E4CD2B4377469 /* Montserrat-BlackItalic.ttf in Resources */,
+				4D9CC404C84148C199C14BAE /* Montserrat-Bold.ttf in Resources */,
+				1F4269B4D62A4310B525281A /* Montserrat-BoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317AD9564640465F9B8D1C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36135C80BC94403A95743036 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,42 +417,77 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		0A18531EE6793B81F634341D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-exponativefontsexampleWidgetExtension/Pods-exponativefontsexampleWidgetExtension-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-exponativefontsexampleWidgetExtension/Pods-exponativefontsexampleWidgetExtension-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-exponativefontsexampleWidgetExtension/Pods-exponativefontsexampleWidgetExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BACED03CF72F695CCF43200 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-exponativefontsexample/Pods-exponativefontsexample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-exponativefontsexample/Pods-exponativefontsexample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-exponativefontsexample/Pods-exponativefontsexample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		790EA008D7D9066A44D5C381 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-exponativefontsexampleWidgetExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-exponativefontsexample/Pods-exponativefontsexample-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-exponativefontsexample/Pods-exponativefontsexample-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-exponativefontsexample/Pods-exponativefontsexample-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-exponativefontsexample/Pods-exponativefontsexample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E1F668AECF4DF6572109AF8D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-exponativefontsexample/Pods-exponativefontsexample-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-exponativefontsexample/Pods-exponativefontsexample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -325,11 +519,33 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
-				56939BA772D745D38B961EEF /* noop-file.swift in Sources */,
+				4A6964186F6A44E287792E6E /* noop-file.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F32D25B49534CCB879AFA4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB231ADF65FF45328D30E270 /* Attributes.swift in Sources */,
+				76BF54EA273B435BBDD79C36 /* Font+families.swift in Sources */,
+				872922FB66374B55952057BA /* FontManager.swift in Sources */,
+				412BB1E8F8804A30B5907C20 /* MyData.swift in Sources */,
+				D6443E6FADEB4A879D676744 /* MyWidget.swift in Sources */,
+				A6D637858D7B41C898DAE2F6 /* WidgetBundle.swift in Sources */,
+				E818652A3E07BF0FA92ABC18 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58E285A42B164CB2B93355D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B02AA2985F5A448A9BCBADC7 /* exponativefontsexampleWidgetExtension */;
+			targetProxy = 292FF2743895454583BDA1B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
@@ -389,6 +605,50 @@
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
+		};
+		33964787F1324D1EA428E588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32FD150A1D24C1212D15A490 /* Pods-exponativefontsexampleWidgetExtension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = exponativefontsexampleWidgetExtension/exponativefontsexampleWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = undefined;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = exponativefontsexampleWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = exponativefontsexampleWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = expo.modules.nativefonts.example.exponativefontsexampleWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		83CBBA201A601CBA00E9B192 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -514,6 +774,46 @@
 			};
 			name = Release;
 		};
+		A2232F105B7743018FF8CE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9776A72C283297A413EFD71B /* Pods-exponativefontsexampleWidgetExtension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = exponativefontsexampleWidgetExtension/exponativefontsexampleWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = undefined;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = exponativefontsexampleWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = exponativefontsexampleWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = expo.modules.nativefonts.example.exponativefontsexampleWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -522,6 +822,15 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773E7E21E4994ABC99779F1A /* Build configuration list for PBXNativeTarget "exponativefontsexampleWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33964787F1324D1EA428E588 /* Debug */,
+				A2232F105B7743018FF8CE20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
