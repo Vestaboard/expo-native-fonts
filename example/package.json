@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@bittingz/expo-widgets": "^0.5.5",
-    "@types/fs-extra": "^11.0.4",
     "expo": "~48.0.21",
     "expo-splash-screen": "~0.18.2",
     "expo-status-bar": "~1.4.4",
