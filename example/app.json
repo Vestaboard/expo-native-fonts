@@ -11,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "expo.modules.nativefonts.example"
@@ -31,11 +29,46 @@
         {
           "srcFolder": "./fonts",
           "fonts": [
-            {  "filePath": "Montserrat/Montserrat-Black.ttf", "targets": ["exponativefontsexample"],  "platform": "ios" },
-            {  "filePath": "Montserrat/Montserrat-BlackItalic.ttf", "targets": ["exponativefontsexample"],  "platform": "ios" },
-            {  "filePath": "Montserrat/Montserrat-Bold.ttf", "targets": ["exponativefontsexample"],  "platform": "ios" },
-            {  "filePath": "Montserrat/Montserrat-BoldItalic.ttf", "targets": ["exponativefontsexample"],  "platform": "ios" }
+            {
+              "filePath": "Montserrat/Montserrat-Black.ttf",
+              "targets": ["exponativefontsexampleWidgetExtension"],
+              "platform": "ios"
+            },
+            {
+              "filePath": "Montserrat/Montserrat-BlackItalic.ttf",
+              "targets": ["exponativefontsexampleWidgetExtension"],
+              "platform": "ios"
+            },
+            {
+              "filePath": "Montserrat/Montserrat-Bold.ttf",
+              "targets": ["exponativefontsexampleWidgetExtension"],
+              "platform": "ios"
+            },
+            {
+              "filePath": "Montserrat/Montserrat-BoldItalic.ttf",
+              "targets": ["exponativefontsexampleWidgetExtension"],
+              "platform": "ios"
+            }
           ]
+        }
+      ],
+      [
+        "@bittingz/expo-widgets",
+        {
+          "ios": {
+            "src": "./widgets/ios",
+            "mode": "development",
+            "moduleDependencies": ["MyData.swift"]
+          },
+          "android": {
+            "src": "./widgets/android",
+            "widgets": [
+              {
+                "name": "SampleWidget",
+                "reourceName": "@xml/sample_widget_info"
+              }
+            ]
+          }
         }
       ]
     ],

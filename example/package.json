@@ -8,7 +8,7 @@
     "prebuild": "EXPO_NO_GIT_STATUS=true expo prebuild --clean"
   },
   "dependencies": {
-    "@bittingz/expo-widgets": "^0.5.5",
+    "@bittingz/expo-widgets": "^0.5.55",
     "expo": "~48.0.21",
     "expo-splash-screen": "~0.18.2",
     "expo-status-bar": "~1.4.4",
