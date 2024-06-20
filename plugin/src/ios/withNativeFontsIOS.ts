@@ -1,7 +1,8 @@
 import { ConfigPlugin, ExportedConfigWithProps, XcodeProject, withXcodeProject, IOSConfig } from "@expo/config-plugins"
 import { ExpoNativeFontOptions, ExpoNativeFontsOptions } from ".."
 import * as path from "path"
-import fsExtra from "fs-extra"
+// import fsExtra from "fs-extra"
+const fsExtra = require('fs-extra')
 
 const getIOSFonts = (options: ExpoNativeFontsOptions) => {
     return options.fonts.filter(f => f.platform !== 'android')
