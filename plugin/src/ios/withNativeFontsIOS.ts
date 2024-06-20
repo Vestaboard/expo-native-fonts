@@ -92,7 +92,7 @@ const addFontToXcodeProj = (config: ExportedConfigWithProps<XcodeProject>, optio
 
     for (const filePath of fontFiles) {
         console.log(`Adding resource file ${filePath}`)
-        IOSConfig.XcodeUtils.addResourceFileToGroup({
+        config.modResults = IOSConfig.XcodeUtils.addResourceFileToGroup({
             filepath: path.join('Fonts', filePath),
             groupName: 'Resources',
             project,
@@ -101,9 +101,7 @@ const addFontToXcodeProj = (config: ExportedConfigWithProps<XcodeProject>, optio
             targetUuid,
         });
     }
-
     console.log('Resource files copied successfully.')
-    config.modResults = project
     return config
 }
 
